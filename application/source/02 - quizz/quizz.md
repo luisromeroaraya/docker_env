@@ -19,6 +19,7 @@ Try to answer these questions. Some might require you to investigate. Here is a 
 
 
 - In which variable is stored the data sent via an html form using the GET method ? 
+ **$_GET**
 - When submitting a form using the POST method, the variables values appear in the URL. True or False?
 - What is the difference between `$a=$b` and `$a==$b` ?
 - What character must be at the end of each line of php code ?
