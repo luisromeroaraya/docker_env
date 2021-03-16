@@ -61,9 +61,9 @@ echo ( $season == 'summer' ) ? "Go to the beach.": "Go skying.";
 - If the condition in the previous statement is true, where will we go ? **To the beach**
 
 - What is the difference between :  **The first variable is an integer, the second one is a string and the last one is an array**
-		- `$a = 10;`  
-		- `$a = "10";`  
-		- `$a = array(10); `   
+	- `$a = 10;`  
+	- `$a = "10";`  
+	- `$a = array(10); `   
 
 	**Tip**: use the `var_dump($a);` function to check each of these expressions.
 
