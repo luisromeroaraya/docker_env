@@ -3,20 +3,20 @@
 Try to answer these questions. Some might require you to investigate. Here is a great tool for that : [http://phptester.net](http://phptester.net). Use it also to check whether you got it right. 
 
 - PHP code must sit inside specific tags. Which one(s) ?
-	-  `<?php>...</?>`  
-	-  `<script>...</script> ` 
-	- `<&>...</&> ` 
+	[ ]  `<?php>...</?>`  
+	[ ]  `<script>...</script> ` 
+	[ ] `<&>...</&> ` 
 	[x] `<?php...?>`
 
 - Which of the following variables **do not** have a valid name ? 
   
 	[x] `myvar`
-	- `$myvar`
-	- `$var5`
-	- `$_myvar`
-	- `$_5var`
-	- `$__élément1`
-	- `$hotel4*`
+	[ ] `$myvar`
+	[ ] `$var5`
+	[ ] `$_myvar`
+	[ ] `$_5var`
+	[ ] `$__élément1`
+	[ ] `$hotel4*`
 
 
 - In which variable is stored the data sent via an html form using the GET method ? 
