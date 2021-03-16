@@ -6,11 +6,11 @@ Try to answer these questions. Some might require you to investigate. Here is a 
 	-  `<?php>...</?>`  
 	-  `<script>...</script> ` 
 	- `<&>...</&> ` 
-	+ `<?php...?>`
+	[x] `<?php...?>`
 
 - Which of the following variables **do not** have a valid name ? 
   
-	- `myvar`
+	[x] `myvar`
 	- `$myvar`
 	- `$var5`
 	- `$_myvar`
