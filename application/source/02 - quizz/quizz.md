@@ -112,7 +112,7 @@ if ($hour > 17){
 }
 ```
 
-- ... And what will it return at 15h02 AM ? **Good afternoon**
+- ... And what will it return at 15h02 AM ? **Good afternoon!**
 - Assume `$a = 4`. What instruction will return : `4 = four` ? Why ? **Variable-substitution isn't done when using single quotes**
 
 	- [ ] `echo '$a = four';`
