@@ -22,16 +22,16 @@ Try to answer these questions. Some might require you to investigate. Here is a 
  **$_GET**
 - When submitting a form using the POST method, the variables values appear in the URL. True or False? **False**
 - What is the difference between `$a=$b` and `$a==$b` ? **In the first statement you are assigning a value but in the second you are comparing two values.**
-- What character must be at the end of each line of php code ? **;**
+- What character must be at the end of each line of php code ? **The character ";"**
 - What will return this line: `echo "Hello" + " World";` ? Why ? **Hello World, because you are concatenating the two strings**
 - What is the right syntax :  
- 		- `<?php echo Hello World; ?>`  
-		- `<?php echo("Hello world"); ?>`  
-		- `<?php echo "Hello World": ?>`  
-		- `<?php echo 'Hello World'; ?>`  
-		- `<?= "Hello World"; ?>` 
+	- [ ] `<?php echo Hello World; ?>`  
+	- [ ] `<?php echo("Hello world"); ?>`  
+	- [x] `<?php echo "Hello World"; ?>`  
+	- [ ] `<?php echo 'Hello World'; ?>`  
+	- [ ] `<?= "Hello World"; ?>` 
  
-- What is the result of this script ? Why ?
+- What is the result of this script ? Why ? **not correct, because the statement ($hour == $Hour) is false. (3 == 15) is false.**
 
 ```php  
 $Hour = 15;
@@ -40,12 +40,12 @@ echo ($hour == $Hour) ? "yes": "not correct";
 ```
 
 - What is the correct way to write comments in PHP ?
-	- `// This is a comment `
-	- `/* This is a comment */ `  
-	- `*/ This is a comment /* `  
-	- `# This is a comment`  
+- [x] `// This is a comment `
+- [x] `/* This is a comment */ `  
+- [ ] `*/ This is a comment /* `  
+- [x] `# This is a comment`  
 
-- What is the result of this script ? Why ?
+- What is the result of this script ? Why ? **yes, because the statement ($hour == $hour) is true. (3 == 3) is true.**
 
 ```php  
 $Hour = 15;
@@ -53,21 +53,21 @@ $hour = 3;
 echo ($hour == $hour) ? "yes": "not correct";
 ```
 
--  What is the name of this type of operator in the following example ?
+-  What is the name of this type of operator in the following example ? **Ternary operator**
 
 ```php  
 echo ( $season == 'summer' ) ? "Go to the beach.": "Go skying.";
 ```
-- If the condition in the previous statement is true, where will we go ?
+- If the condition in the previous statement is true, where will we go ? **To the beach**
 
-- What is the difference between :  
+- What is the difference between :  **The first variable is an integer, the second one is a string and the last one is an array**
 		- `$a = 10;`  
 		- `$a = "10";`  
 		- `$a = array(10); `   
 
 	**Tip**: use the `var_dump($a);` function to check each of these expressions.
 
-- What will the following return ?
+- What will the following return ? **12**
 
 ```php  
 $a = 10;  
@@ -75,7 +75,7 @@ $b = 2;
 echo $a + $b;  
 ```
 
-- And this one ? 
+- And this one ?  **20**
 
 ```php  
 $a = 10;  
@@ -83,7 +83,7 @@ $b = 2;
 echo $a * $b;  
 ```
 
-- And this one ? 
+- And this one ? **8**
 
 ```php  
 $a = 10;  
@@ -91,7 +91,7 @@ $b = 2;
 echo $a - $b;  
 ```
 
-- And this one ? Why ?
+- And this one ? Why ? **102, because "." is the string operator for concatenating**
 
 ```php  
 $a = 10;  
@@ -99,7 +99,7 @@ $b = 2;
 echo $a . $b;  
 ```
 
-- What will this script return at 10h23 AM ?
+- What will this script return at 10h23 AM ? **Hello!**
 
 ```php  
 $hour = date('H');
@@ -112,17 +112,17 @@ if ($hour > 17){
 }
 ```
 
-- ... And what will it return at 15h02 AM ?
-- Assume `$a = 4`. What instruction will return : `4 = four` ? Why ?
+- ... And what will it return at 15h02 AM ? **Good afternoon**
+- Assume `$a = 4`. What instruction will return : `4 = four` ? Why ? **Variable-substitution isn't done when using single quotes**
 
-	- `echo '$a = four';`
-	- `echo '$a = 2+2';`
-	- `echo "$a = four";`
+	- [ ] `echo '$a = four';`
+	- [ ] `echo '$a = 2+2';`
+	- [x] `echo "$a = four";`
 
 - In the case of a form to collect sensitive data, which method will we rather use to send the data :  
-	- GET
-	- mailto
-	- POST
+- [ ] GET
+- [ ] mailto
+- [x] POST
 
  -----=== End of the quizz ===-----
 
